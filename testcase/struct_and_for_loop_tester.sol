@@ -28,12 +28,6 @@ contract StructAndFor {
         }	
     }
 
-    function infiniteFor() 
-    {
-        for(uint8 y = 0; y < 30000; y++)
-    	{
-        }	
-    }
     
     function getElevation(uint8 x, uint8 y) constant returns (uint8)
     {
